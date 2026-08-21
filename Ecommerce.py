@@ -1,6 +1,6 @@
 
 # models
-
+# ----------------------------------------------
 
 class DeliveryDate(models.Model):
 
@@ -8,6 +8,7 @@ class DeliveryDate(models.Model):
     select_place = models.charField(15)
     delivery_date = models.IntegerField()
 
+# ----------------------------------------------
 
 
 from django.utils import timezone
